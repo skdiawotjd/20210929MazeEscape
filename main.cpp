@@ -45,6 +45,8 @@ int Level = 0;
 
 int main()
 {
+	// 최초에 한번 미리 그려주기
+	Draw();
 	while (bIsRunning)
 	{
 		Input();
